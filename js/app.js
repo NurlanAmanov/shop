@@ -113,6 +113,12 @@ function odego() {
       meshullar.style.display = 'flex';
       opembar.style.display = 'flex';
   }
+  if(hero.style.display==="block"){
+    hero.style.display='none'
+  }else{
+    hero.style.display='block'
+  }
+  
 }
 function odemesec() {
   const odememethod = document.getElementById('odememethod');
@@ -135,11 +141,8 @@ function odemesec() {
   }else{
     kartodeme.style.display = 'none'
   }
-  if(hero.style.display === 'block'){
-    hero.style.display = 'none'
-  }else{
-    hero.style.display = 'block'
-  }
+
+  
 }
 
 
