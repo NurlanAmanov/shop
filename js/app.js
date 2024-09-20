@@ -102,6 +102,7 @@ function odego() {
   const odemepage = document.getElementById('odemepage');
   const meshullar = document.getElementById('meshullar'); 
   const opembar = document.getElementById('opembar'); 
+  const hero = document.getElementById('hero'); 
 
   if (odemepage.style.display === 'none' || odemepage.style.display === '') {
       odemepage.style.display = 'flex';
@@ -133,6 +134,11 @@ function odemesec() {
     kartodeme.style.display = 'block'
   }else{
     kartodeme.style.display = 'none'
+  }
+  if(hero.style.display === 'block'){
+    hero.style.display = 'none'
+  }else{
+    hero.style.display = 'block'
   }
 }
 
