@@ -1,0 +1,96 @@
+*{padding: 0;
+margin: 0;
+box-sizing: border-box;}
+html,body{
+    overflow-x: hidden;
+}
+.card-img-top{
+width: 150px !important;
+    height:150px !important;
+    object-fit: contain;
+    margin: 10px auto;
+}
+.cards{
+    width: 30%!important;
+    max-height: 100%;
+}
+.leftsebet{
+    position: relative;
+}
+.sebetcontent{
+position: absolute;
+left: -100%;
+    width: 50%;
+    background: orange;
+    height: 100vh;
+   
+}
+.openbar{
+    right: 0;
+}
+.container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-control:focus {
+    border-color: #80bdff;
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.form-actions {
+    text-align: right;
+}
+
+.btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-success {
+    background-color: #28a745;
+    color: white;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+.btn-info {
+    background-color: #17a2b8;
+    color: white;
+    margin-left: 10px;
+}
+
+.btn-info:hover {
+    background-color: #138496;
+}
